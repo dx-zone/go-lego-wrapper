@@ -1,8 +1,10 @@
 # 🔐 go-lego-wrapper
 
-
-
-
+![Go Version](https://img.shields.io/github/go-mod/go-version/dx-zone/go-lego-wrapper)
+![Repo Size](https://img.shields.io/github/repo-size/dx-zone/go-lego-wrapper)
+![Last Commit](https://img.shields.io/github/last-commit/dx-zone/go-lego-wrapper)
+![License](https://img.shields.io/github/license/dx-zone/go-lego-wrapper)
+![Stars](https://img.shields.io/github/stars/dx-zone/go-lego-wrapper?style=social)
 
 A **lightweight Go CLI tool** for batch-processing ACME certificate requests using
  the excellent [`lego`](https://go-acme.github.io/lego/) ACME client.
