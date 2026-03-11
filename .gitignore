@@ -1,0 +1,91 @@
+# Go build and test artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
+*.out
+*.test
+*.prof
+*.pprof
+*.cover
+*_
+coverage.*
+cover.out
+dist/
+build/
+bin/
+
+# Go workspace metadata
+go.work
+go.work.sum
+
+# Local runtime data and generated certificate material
+dns_profiles/
+.certificates/
+certificates/
+.lego/
+lego/
+acme.json
+*.crt
+*.csr
+*.der
+*.key
+*.pem
+*.p12
+*.pfx
+*.p7b
+*.p8
+
+# Environment files and local secrets
+.env
+.env.*
+*.env
+*.env.local
+*.env.development
+*.env.production
+*.secret
+*.secrets
+*.token
+*.credentials
+*.creds
+*.kubeconfig
+*.ovpn
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Keep documented examples
+!templates/*-example.env
+
+# Optional local input/export files that may contain sensitive domain/email data
+certificates.local.csv
+certificates.private.csv
+
+# IDE and editor metadata
+.idea/
+.vscode/
+.fleet/
+.history/
+*.code-workspace
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+Session.vim
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log

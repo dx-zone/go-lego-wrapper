@@ -1,0 +1,9 @@
+domain/fqdn,dns_profile,email
+*.example.net www.example.net,rfc2136,admin@example.net
+
+*.example.com,primarydns,admin@example.com
+*.fl01.example.com,primarydns,admin@example.com
+
+app.example.com,primarydns,admin@example.com
+
+app.fl01.example.com,primarydns,admin@example.com
