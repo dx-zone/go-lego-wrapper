@@ -1,4 +1,4 @@
-module go-lego-wrapper
+module github.com/dx-zone/go-lego-wrapper
 
 go 1.25.7
 

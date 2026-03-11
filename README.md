@@ -37,15 +37,15 @@ The goal is to simplify issuing and renewing **multiple certificates across diff
 ### Option 1 — Build from source
 
 ```bash
-git clone https://github.com/your-org/go-lego-wrapper
+git clone https://github.com/dx-zone/go-lego-wrapper
 cd go-lego-wrapper
-go build -o lego-wrapper
+go build -o go-lego-wrapper .
 ```
 
 Run:
 
 ```bash
-./lego-wrapper
+./go-lego-wrapper
 ```
 
 ------
@@ -53,7 +53,7 @@ Run:
 ### Option 2 — Install with Go
 
 ```bash
-go install https://github.com/dx-zone/go-lego-wrapper@latest
+go install github.com/dx-zone/go-lego-wrapper@latest
 ```
 
 ------
@@ -322,4 +322,3 @@ https://github.com/dx-zone/go-lego-wrapper
 ```
 
 ---
-
